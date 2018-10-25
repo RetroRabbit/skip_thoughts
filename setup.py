@@ -6,10 +6,11 @@ with open('README.md') as f:
 setup(
     name='skip_thoughts',
     version='0.1.0',
-    description='skip thoughts',
+    description='A pip installable version of skip_thoughts branched from tensorflow/research',
     long_description=readme,
-    author='Google',
-    author_email='',
+    long_description_content_type="text/markdown",
+    author='Julien Nyambal',
+    author_email='jnyambal@retrorabbit.co.za',
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires=[
         'six==1.11.0',
@@ -19,4 +20,5 @@ setup(
         'gensim==3.6.0',
         'scikit-learn==0.19.1',
     ],
+    url='https://github.com/RetroRabbit/skip_thoughts'
 )
