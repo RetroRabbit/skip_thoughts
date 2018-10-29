@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setup(
     name='skip_thoughts',
-    version='0.1.0',
+    version='0.1.1',
     description='A pip installable version of skip_thoughts branched from tensorflow/research',
     long_description=readme,
     long_description_content_type="text/markdown",
@@ -20,5 +20,6 @@ setup(
         'gensim==3.6.0',
         'scikit-learn==0.19.1',
     ],
+    python_requires='>=2.7',
     url='https://github.com/RetroRabbit/skip_thoughts'
 )
