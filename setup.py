@@ -14,7 +14,7 @@ setup(
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires=[
         'six==1.11.0',
-        'tensorflow==1.9.0',
+        'tensorflow==1.15.4',
         'numpy==1.14.3',
         'nltk==3.3',
         'gensim==3.6.0',
