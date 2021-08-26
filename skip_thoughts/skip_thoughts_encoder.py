@@ -37,8 +37,8 @@ import nltk.tokenize
 import numpy as np
 import tensorflow as tf
 
-from skip_thoughts import skip_thoughts_model
-from skip_thoughts.data import special_words
+from . import skip_thoughts_model
+from .data import special_words
 
 
 def _pad(seq, target_len):
