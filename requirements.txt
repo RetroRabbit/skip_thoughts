@@ -1,5 +1,5 @@
 six==1.11.0
-tensorflow-gpu==2.5.3
+tensorflow-gpu==2.6.4
 numpy==1.14.3
 nltk==3.6.5
 gensim==3.6.0
