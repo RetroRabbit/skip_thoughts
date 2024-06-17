@@ -18,7 +18,7 @@ setup(
         'numpy==1.22.0',
         'nltk==3.6.6',
         'gensim==3.6.0',
-        'scikit-learn==0.19.1',
+        'scikit-learn==1.5.0',
     ],
     python_requires='>=2.7',
     url='https://github.com/RetroRabbit/skip_thoughts'
