@@ -16,7 +16,7 @@ setup(
         'six==1.11.0',
         'tensorflow==2.11.1',
         'numpy==1.22.0',
-        'nltk==3.6.6',
+        'nltk==3.9',
         'gensim==3.6.0',
         'scikit-learn==1.5.0',
     ],
